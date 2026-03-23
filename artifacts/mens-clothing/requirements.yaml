@@ -1,0 +1,15 @@
+packages:
+  "framer-motion": "For smooth page transitions and fade-in scroll animations"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes safely"
+  "@hookform/resolvers": "Validation for checkout form"
+  "react-hook-form": "Form state management for checkout"
+
+images:
+  - path: "artifacts/mens-clothing/public/images/logo-mark.png"
+    description: "A minimal, premium, geometric logo mark for a high-end men's clothing brand, black on transparent background"
+    aspect_ratio: "1:1"
+
+notes:
+  - No backend API needed; all product data is mock/in-memory
+  - Cart state persists via localStorage
